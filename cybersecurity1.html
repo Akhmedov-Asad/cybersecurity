@@ -1,0 +1,95 @@
+<!-- page.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Страница</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Подключение библиотеки Font Awesome -->
+  <link rel="stylesheet" href="./style.css">
+
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+    }
+  ul li{
+    list-style: none;
+  }
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+  
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 20px;
+    }
+  
+    .logo {
+        font-size: 24px;
+    }
+  
+    .links a {
+        margin-left: 10px;
+        text-decoration: none;
+        color: #333;
+    }
+  
+    .content {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+  
+    @media only screen and (max-width: 480px) {
+        header {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+  
+        .logo {
+            margin-bottom: 10px;
+        }
+  
+        .links {
+            margin-top: 10px;
+        }
+        .fas{
+            font-size: 23px;
+        }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <a href="#" class="link"><i class="fas fa-shield-alt"></i> Cybersecurity</a>
+      </div>
+      <div class="links">
+        <a href="./index.html" class="link">Главная</a>
+
+      </div>
+    </header>
+
+    <div class="content">
+      <h1>Добро пожаловать в мир кибербезопасности!</h1>
+      <p>Кибербезопасность играет важную роль в современном информационном обществе. Она предоставляет защиту от киберугроз и помогает обеспечить безопасность данных и систем.</p>
+      <p>Наша компания Cybersecurity предлагает широкий спектр услуг по кибербезопасности, включая:</p>
+      <ul>
+        <li>Аудит и оценка уязвимостей</li>
+        <li>Защита сетевой инфраструктуры</li>
+        <li>Мониторинг и обнаружение инцидентов</li>
+        <li>Обучение персонала в области кибербезопасности</li>
+        <li>И многое другое!</li>
+      </ul>
+      <p>Мы с гордостью предоставляем надежные и инновационные решения для защиты ваших данных и бизнеса. Свяжитесь с нами, чтобы узнать больше о том, как мы можем помочь вам обеспечить безопасность в виртуальном мире.</p>
+    </div>
+  </div>
+</body>
+</html>
